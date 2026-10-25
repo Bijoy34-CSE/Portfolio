@@ -30,7 +30,7 @@ const PROJECTS = [
   {
     id: "project-1",
     name: "InterviewMate",
-    image: "images/interviewmate.svg",
+    image: "images/interviewmate.jpeg",
     summary: "An AI-assisted viva and interview preparation platform concept.",
     description:
       "A system designed to help users practise job interviews, course vivas, internships, scholarship and admission interviews, and certification questions. It aims to support adaptive practice with text and voice-based interaction.",
@@ -45,7 +45,7 @@ const PROJECTS = [
   {
     id: "project-2",
     name: "Narail Students Forum (NSF)",
-    image: "images/nsf-forum.svg",
+    image: "images/nsf-forum.jpg",
     summary: "A student association website concept for Khulna University.",
     description:
       "A planned dynamic website for Narail Students Forum (NSF), Khulna University, with public information and an admin panel for managing site content.",
