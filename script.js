@@ -35,7 +35,16 @@ const PROJECTS = [
     description:
       "A system designed to help users practise job interviews, course vivas, internships, scholarship and admission interviews, and certification questions. It aims to support adaptive practice with text and voice-based interaction.",
     stack: ["MERN (planned; final stack to confirm)"],
-    challenges: [],
+    live: "https://cseku-26-wpl-interviewmate-1.onrender.com/",
+    github: "https://github.com/Bijoy34-CSE/cseku_26_wpl_InterviewMate",
+    challenges: [
+      "Integrating AI for adaptive question generation and answer evaluation.",
+      "Processing uploaded documents to generate relevant questions.",
+      "Managing AI API limits and response delays.",
+      "Implementing voice-based interview practice.",
+      "Integrating the frontend, backend, and database efficiently.",
+    ],
+    linkStatus: "Not provided yet.",
     future: [
       "Improve feedback quality.",
       "Add more practice modes.",
@@ -51,6 +60,7 @@ const PROJECTS = [
       "A planned dynamic website for Narail Students Forum (NSF), Khulna University, with public information and an admin panel for managing site content.",
     stack: ["MERN (planned; implementation to confirm)"],
     challenges: [],
+    linkStatus: "Not pushed to GitHub or deployed yet.",
     future: [
       "Complete content management.",
       "Improve mobile usability.",
@@ -66,6 +76,7 @@ const PROJECTS = [
       "An academic project exploring human activity recognition from video sequences using CNN-based frame features and a recurrent model for temporal information.",
     stack: ["Python", "PyTorch", "Pretrained CNN", "Bi-directional Residual GRU (draft)"],
     challenges: [],
+    linkStatus: "Not pushed to GitHub or deployed yet.",
     future: [
       "Evaluate on additional data.",
       "Improve model efficiency.",
@@ -185,17 +196,19 @@ function renderProject(p) {
       <h2>Overview</h2>
       <p>${p.description}</p>
 
-      ${p.challenges.length ? `
       <h2>Challenges faced</h2>
-      <ul class="list">${listItems(p.challenges)}</ul>` : ""}
+      ${p.challenges.length
+        ? `<ul class="list">${listItems(p.challenges)}</ul>`
+        : `<p>No development challenges provided.</p>`}
 
       <h2>Future improvements</h2>
       <ul class="list">${listItems(p.future)}</ul>
 
-      ${p.live || p.github ? `<div class="btn-row">
-        ${p.live ? `<a class="btn btn-primary" href="${p.live}" target="_blank" rel="noopener">Live project</a>` : ""}
-        ${p.github ? `<a class="btn btn-outline" href="${p.github}" target="_blank" rel="noopener">GitHub repository</a>` : ""}
-      </div>` : ""}
+      <h2>Project links</h2>
+      <ul class="list">
+        <li>Live project: ${p.live ? `<a href="${p.live}" target="_blank" rel="noopener">Visit live project</a>` : p.linkStatus}</li>
+        <li>Client-side GitHub repository: ${p.github ? `<a href="${p.github}" target="_blank" rel="noopener">View repository</a>` : p.linkStatus}</li>
+      </ul>
     </article>`;
 }
 
