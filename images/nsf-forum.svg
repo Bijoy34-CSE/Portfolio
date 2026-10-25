@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Narail Students Forum website illustration</title>
+  <desc id="desc">A student forum website concept with event and community cards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#153d35"/>
+      <stop offset="1" stop-color="#42a77c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="230" fill="#fff" opacity=".07"/>
+  <rect x="145" y="115" width="910" height="520" rx="26" fill="#fff" opacity=".97"/>
+  <rect x="145" y="115" width="910" height="76" rx="26" fill="#f0f8f4"/>
+  <rect x="190" y="137" width="38" height="38" rx="12" fill="#23835e"/>
+  <text x="246" y="165" fill="#153d35" font-family="Arial, sans-serif" font-size="25" font-weight="700">NSF · Khulna University</text>
+  <text x="205" y="264" fill="#153d35" font-family="Arial, sans-serif" font-size="38" font-weight="700">A community for students</text>
+  <text x="205" y="305" fill="#557067" font-family="Arial, sans-serif" font-size="21">News, activities and community updates</text>
+  <rect x="205" y="350" width="350" height="210" rx="18" fill="#e4f3eb"/>
+  <circle cx="290" cy="425" r="44" fill="#61b88d"/>
+  <path d="M275 428h30m-15-15v30" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <text x="255" y="515" fill="#153d35" font-family="Arial, sans-serif" font-size="22" font-weight="700">Upcoming events</text>
+  <rect x="585" y="350" width="380" height="92" rx="16" fill="#f0f8f4"/>
+  <circle cx="628" cy="396" r="20" fill="#23835e"/>
+  <text x="668" y="390" fill="#153d35" font-family="Arial, sans-serif" font-size="20" font-weight="700">Student community</text>
+  <text x="668" y="418" fill="#557067" font-family="Arial, sans-serif" font-size="17">Connect and share updates</text>
+  <rect x="585" y="468" width="380" height="92" rx="16" fill="#f0f8f4"/>
+  <rect x="607" y="489" width="42" height="42" rx="12" fill="#89cba9"/>
+  <text x="668" y="508" fill="#153d35" font-family="Arial, sans-serif" font-size="20" font-weight="700">Forum information</text>
+  <text x="668" y="536" fill="#557067" font-family="Arial, sans-serif" font-size="17">A planned public information site</text>
+</svg>
